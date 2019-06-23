@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.axis {
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+svg {
+  background-color: white;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: #CCCCCC;
+  color: black;
+  font-weight: bold;
+  opacity: 0.8;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  pointer-events: none;
+  text-align: center;
+}
+
+.legendTxt {
+  font-size: 12px;
+}
